@@ -1,0 +1,2 @@
+var e,t=document.querySelector("thead tr"),o=document.querySelectorAll("tbody tr"),r=document.querySelector("tfoot tr"),n=((e=document.createElement("th")).textContent="Position",e);t.insertBefore(n.cloneNode(!0),t.children[4]),r.insertBefore(n.cloneNode(!0),r.children[4]);var c=document.querySelectorAll("tbody tr td:nth-child(2)");o.forEach(function(e,t){var o=document.createElement("td");o.textContent=c[t].textContent,e.insertBefore(o,e.children[4])});
+//# sourceMappingURL=index.5a4551de.js.map
